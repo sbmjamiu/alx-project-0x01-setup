@@ -6,14 +6,14 @@ import { useState } from "react";
 
 const Users: React.FC<UserProps[]> = ({ users }: any) => {
   const [isModalOpen, setModalOpen] = useState(false);
-  const [userList, setUserList] = useState<UserProps[]>(users);
+  const [posts, setUserList] = useState<UserProps[]>(users);
 
   const handleAddUser = (newUser: UserData) => {
     const newUserWithId: UserProps = {
       ...newUser,
-      id: userList.length + 1,
+      id: posts.length + 1,
     };
-    setUserList([...userList, newUserWithId]);
+    setUserList([...posts, newUserWithId]);
   };
 
   return (
@@ -30,7 +30,7 @@ const Users: React.FC<UserProps[]> = ({ users }: any) => {
           </button>
         </div>
         <div className="grid grid-cols-3 gap-4">
-          {users?.map((user: UserProps, index: number) => (
+          {posts?.map((user: UserProps, index: number) => (
             <UserCard key={index} {...user} />
           ))}
         </div>
