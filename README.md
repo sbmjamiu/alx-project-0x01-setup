@@ -31,24 +31,28 @@ Apply responsive design principles with Tailwind CSS
 
 ### Functional Requirements
 
-- 1. **Base Application Setup**
-- - Create Next.js app with TypeScript, Tailwind CSS, and ESLint
-- - Configure proper folder structure
-- - Set up global CSS with Tailwind directives
+1. **Base Application Setup**
 
-- 2. **Navigation System**
-- - Implement header with navigation links
-- - Set up routing between home, posts, and users pages
-- - Ensure navigation works without page reloads
-- - Posts Functionality
+- Create Next.js app with TypeScript, Tailwind CSS, and ESLint
+- Configure proper folder structure
+- Set up global CSS with Tailwind directives
 
-Display posts from JSONPlaceholder API
-Create PostCard component for displaying individual posts
-Implement PostModal for adding new posts
-Handle form submission and state management
-Users Functionality
+2. **Navigation System**
 
-Display users from JSONPlaceholder API
-Create UserCard component for displaying user information
-Implement UserModal for adding new users
-Handle complex nested data structures
+- Implement header with navigation links
+- Set up routing between home, posts, and users pages
+- Ensure navigation works without page reloads
+
+3. Posts Functionality
+
+- Display posts from JSONPlaceholder API
+- Create PostCard component for displaying individual posts
+- Implement PostModal for adding new posts
+- Handle form submission and state management
+
+4. Users Functionality
+
+- Display users from JSONPlaceholder API
+- Create UserCard component for displaying user information
+- Implement UserModal for adding new users
+- Handle complex nested data structures
