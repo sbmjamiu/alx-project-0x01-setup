@@ -50,9 +50,9 @@ Apply responsive design principles with Tailwind CSS
 - Implement PostModal for adding new posts
 - Handle form submission and state management
 
-4. Users Functionality
+4.  Users Functionality
 
--- Display users from JSONPlaceholder API
--- Create UserCard component for displaying user information
--- Implement UserModal for adding new users
--- Handle complex nested data structures
+    - Display users from JSONPlaceholder API
+    - Create UserCard component for displaying user information
+    - Implement UserModal for adding new users
+    - Handle complex nested data structures
